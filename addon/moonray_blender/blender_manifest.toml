@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "moonray_blender"
+version = "0.1.0"
+name = "MoonRay"
+tagline = "Render with DreamWorks' MoonRay, in the viewport and with F12"
+maintainer = "MoonrayforBlender contributors"
+type = "add-on"
+website = "https://github.com/dannybend/MoonrayforBlender"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Render"]
+
+platforms = ["windows-x64"]
+
+[permissions]
+network = "Connects to moonray_bridge (running in WSL) on localhost"
+files = "Saves packed textures to a temporary folder"
